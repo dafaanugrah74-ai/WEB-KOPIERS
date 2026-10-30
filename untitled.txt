@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ER Coffee Pekanbaru</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+ font-family:Arial,sans-serif;
+ background:#17120f;color:#f5e9dc;
+ line-height:1.7
+}
+header{
+ padding:22px 8%;
+ display:flex;justify-content:space-between;
+ align-items:center;background:#211813
+}
+.logo{font-size:25px;font-weight:bold;color:#c89565}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{
+ min-height:550px;display:flex;align-items:center;
+ padding:70px 10%;
+ background:linear-gradient(90deg,#17120fee,#17120f55),
+ url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600')
+ center/cover
+}
+.hero h1{font-size:55px;line-height:1.2}
+.hero p{margin:20px 0;color:#e4d3c2}
+.btn{
+ display:inline-block;padding:12px 25px;
+ background:#a96f42;color:white;
+ text-decoration:none;border-radius:5px
+}
+section{padding:65px 10%}
+h2{font-size:32px;color:#d2a477;margin-bottom:20px}
+.about{background:#241a14}
+.cards{
+ display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:22px;margin-top:25px
+}
+.card{
+ background:#302219;border-radius:12px;
+ overflow:hidden;padding-bottom:18px
+}
+.card img{width:100%;height:190px;object-fit:cover}
+.card h3,.card p{padding:5px 17px}
+.card h3{color:#d2a477;margin-top:10px}
+.info{background:#211813}
+.info p{margin:10px 0}
+footer{
+ text-align:center;padding:30px;
+ background:#100c09;color:#bca996
+}
+@media(max-width:600px){
+ .hero h1{font-size:38px}
+ nav{display:none}
+ section{padding:45px 7%}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">☕ ER COFFEE</div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#about">Tentang</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Kontak</a>
+ </nav>
+</header>
+
+<div class="hero" id="home">
+ <div>
+  <h1>Enjoy Every<br>Drop of Coffee</h1>
+  <p>Menikmati kopi, merasakan kehangatan,
+  dan menciptakan cerita bersama.</p>
+  <a class="btn" href="#about">Jelajahi Kami</a>
+ </div>
+</div>
+
+<section class="about" id="about">
+ <h2>Tentang ER Coffee</h2>
+ <p>
+ ER Coffee atau ER Coffee Keude Kupi merupakan
+ tempat menikmati kopi dan hidangan khas Aceh
+ di Pekanbaru, Riau.
+ </p>
+ <p>
+ Menghadirkan pilihan kopi, termasuk kopi Gayo,
+ serta hidangan bercita rasa khas Aceh seperti
+ Mie Aceh. Cocok untuk menikmati waktu santai
+ bersama teman maupun keluarga.
+ </p>
+</section>
+
+<section id="menu">
+ <h2>Menu Favorit</h2>
+ <p>Beberapa pilihan yang dikenal dari ER Coffee.</p>
+ <div class="cards">
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600">
+   <h3>Kopi Gayo</h3>
+   <p>Kopi dengan karakter khas dataran tinggi Gayo.</p>
+  </div>
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600">
+   <h3>Kopi Sanger</h3>
+   <p>Perpaduan kopi dan susu khas Aceh.</p>
+  </div>
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=600">
+   <h3>Kopi Susu</h3>
+   <p>Teman bersantai untuk pecinta kopi.</p>
+  </div>
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600">
+   <h3>Mie Aceh</h3>
+   <p>Hidangan khas Aceh dengan rempah yang kaya.</p>
+  </div>
+ </div>
+</section>
+
+<section class="info" id="contact">
+ <h2>Kunjungi Kami</h2>
+ <p>📍 Jl. Arifin Ahmad No.45, Pekanbaru, Riau</p>
+ <p>📞 +62 852-6456-2222</p>
+ <p>⭐ Rating listing: 4,4/5</p>
+ <p>🕘 Jam operasional listing: 09.00–00.00 WIB</p>
+ <br>
+ <a class="btn"
+ href="https://www.google.com/maps/search/?api=1&query=Er+Coffee+Keude+Kupi+Pekanbaru"
+ target="_blank">Lihat Lokasi</a>
+</section>
+
+<footer>
+ <h3>ER COFFEE PEKANBARU</h3>
+ <p>A Taste of Coffee, A Place to Connect.</p>
+ <p>© 2026 ER Coffee Profile Website</p>
+</footer>
+
+</body>
+</html>
+ 
